@@ -1,0 +1,40 @@
+/* formatação de todo o corpo da pagina */
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* formatação em dois tags */
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* configurando 3 tags (header, nav, a) */
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #e60707;
+    text-decoration: underline;
+}
+
+.galeria img{
+    margin: 10px;
+    border: 2px solid #1313c5;
+    width: 200px;
+    height: 150px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+
+.galeria img:hover{
+    transform: scale(1.1);
+}
+
+
